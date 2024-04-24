@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using Unity.Netcode;
 
-public class Board : NetworkBehaviour
+public class Board : MonoBehaviour
 {
     public TetrominoData[] tetrominos;
     public Tilemap tilemap {get; private set;}

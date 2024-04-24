@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Unity.Netcode;
 
-public class Piece : NetworkBehaviour
+public class Piece : MonoBehaviour
 {
     public Board board {get; private set; }
     public TetrominoData data {get; private set; }
@@ -28,8 +27,6 @@ public class Piece : NetworkBehaviour
 
     private void Update()
     {
-        if (!IsOwner) return;
-
         this.board.Clear(this);
 
         if (Input.GetKeyDown(KeyCode.A))

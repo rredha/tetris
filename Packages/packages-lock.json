@@ -135,7 +135,7 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.15",
+      "version": "3.0.28",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -176,16 +176,6 @@
         "com.unity.nuget.mono-cecil": "1.10.1",
         "com.unity.collections": "1.1.0",
         "com.unity.modules.uielements": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.netcode.gameobjects": {
-      "version": "1.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.nuget.mono-cecil": "1.10.1",
-        "com.unity.transport": "1.2.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -250,17 +240,6 @@
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.transport": {
-      "version": "1.2.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.collections": "1.2.4",
-        "com.unity.burst": "1.6.6",
-        "com.unity.mathematics": "1.2.6"
       },
       "url": "https://packages.unity.com"
     },
